@@ -159,7 +159,7 @@ Casos críticos = 0 em todas (coincide com o Resumo geral do site). Total aguard
 | ODONTOLOGIA | 1 | 8 | 15 | 0 | 0 | 0 | **24** |
 | ATENDIMENTO PEDIÁTRICO | 49 | 0 | 43 | 50 | 40 | 11 | **193** |
 | ASSISTÊNCIA SOCIAL | 5 | 0 | 0 | 0 | 0 | 0 | **5** |
-| TRANSFERÊNCIAS | *(não capturado)* | 0 | 20 | 1 | 1 | 1 | **23*** |
+| TRANSFERÊNCIAS | 17 | 0 | 20 | 1 | 1 | 1 | **23*** |
 
 \* Exclui a UPA Leste (linha cortada no print).
 
