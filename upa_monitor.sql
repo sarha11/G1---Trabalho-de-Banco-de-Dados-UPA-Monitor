@@ -2,8 +2,7 @@
    UPA MONITOR - PORTO VELHO | SQL Server (T-SQL)
    Modelo baseado nos PRINTS do UPA Monitor (6 UPAs, 15 setores,
    5 classificacoes de risco, 2 tempos medios por UPA).
-   Dados de carga: valores reais lidos dos prints. AJUSTE @data/@hora
-   para o momento exato da captura (os prints nao mostram data/hora).
+   Dados de carga: valores reais lidos dos prints. 
    ===================================================================== */
 CREATE TABLE UPA (
     id_upa INT IDENTITY(1,1) PRIMARY KEY,
@@ -45,7 +44,7 @@ CREATE TABLE MEDICAO_SETOR (                -- "Pacientes por setor"
 );
 GO
 -- ---------------- CARGA (valores dos prints) ----------------
-DECLARE @data DATE = '2026-10-28', @hora TIME(0) = '12:00:00';   -- << AJUSTAR
+DECLARE @data DATE = '2026-10-28', @hora TIME(0) = '19:46:00';   
 INSERT INTO CLASSIFICACAO_RISCO VALUES
  (1,N'EMERGÊNCIA','Vermelho',1),(2,N'MUITO URGENTE','Laranja',2),(3,N'URGENTE','Amarelo',3),
  (4,N'POUCO URGENTE','Verde',4),(5,N'NÃO URGENTE','Azul',5);
